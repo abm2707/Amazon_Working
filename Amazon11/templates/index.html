@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Amazon Reviews Sentiment Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body>
+    <h1 align="center">Amazon Reviews Sentiment Analysis</h1>
+    <form method="POST" action="{{ url_for('reviews') }}">
+      <label for="url">Enter the URL of the Amazon product page:</label>
+      <br>
+      <input type="text" id="url" name="url" required>
+      <br>
+      <br>
+      <input align="center" type="submit" value="Submit">
+    </form>
+  </body>
+</html>
