@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Amazon Reviews</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      th, td {
+        text-align: left;
+        padding: 8px;
+        border: 1px solid #ddd;
+      }
+
+      th {
+        background-color: #f2f2f2;
+      }
+
+      .positive {
+        color: green;
+      }
+
+      .negative {
+        color: red;
+      }
+
+      .neutral {
+        color: grey;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 align="center">Amazon Reviews</h1>
+    {% if reviews %}
+    <table>
+      <thead>
+        <tr>
+          <th>Review Text</th>
+          <th>Rating</th>
+          <th>Sentiment</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for review in reviews %}
+        <tr>
+          <td>{{ review['text'] }}</td>
+          <td>{{ review['rating'] }}</td>
+          <td class="{{ review['sentiment']|lower }}">{{ review['sentiment'] }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+    <p>No reviews found.</p>
+    {% endif %}
+  </body>
+</html>
