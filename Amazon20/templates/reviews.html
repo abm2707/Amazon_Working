@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Amazon Reviews Sentiment Analysis</title>
+</head>
+<body>
+    <h1>Amazon Reviews Sentiment Analysis</h1>
+    <table>
+        <tr>
+            <th>Review</th>
+            <th>Sentiment Score</th>
+            <th>Sentiment Label</th>
+        </tr>
+        {% for review, score, label in reviews %}
+            <tr>
+                <td>{{ review }}</td>
+                <td>{{ score }}</td>
+                <td>{{ label }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amazon Review Sentiment Analysis</title>
+</head>
+<body>
+    <h1>Amazon Review Sentiment Analysis</h1>
+    <form action="{{ url_for('reviews') }}" method="POST">
+        <label for="url">Enter the Amazon product URL:</label><br>
+        <input type="text" id="url" name="url"><br>
+        <input type="submit" value="Analyze Reviews">
+    </form>
+</body>
+</html>

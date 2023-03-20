@@ -1,0 +1,54 @@
+1679323102843	geckodriver	INFO	Listening on 127.0.0.1:1930
+1679323105141	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1931" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilecQsuLT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679323106109	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1679323106129	Marionette	INFO	Listening on port 1939
+Read port: 1939
+WebDriver BiDi listening on ws://127.0.0.1:1931
+1679323107067	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilecQsuLT\\search.json.mozlz4", (void 0)))
+console.error: Region.sys.mjs: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 416))
+DevTools listening on ws://127.0.0.1:1931/devtools/browser/40487cdb-c7e4-427a-a9de-dd2c7807824b
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 461))
+JavaScript warning: https://www.amazon.in/HP-i3-1115G4-Micro-Edge-Anti-Glare-15s-fq2673TU/product-reviews/B0B4N6JVMW/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1679323178893	Marionette	INFO	Stopped listening on port 1939
+Dynamically enable window occlusion 1
+1679323407778	geckodriver	INFO	Listening on 127.0.0.1:2097
+1679323410293	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2098" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilejfO4me"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679323411430	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1679323411444	Marionette	INFO	Listening on port 2106
+Read port: 2106
+WebDriver BiDi listening on ws://127.0.0.1:2098
+1679323411784	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilejfO4me\\search.json.mozlz4", (void 0)))
+console.error: Region.sys.mjs: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 416))
+DevTools listening on ws://127.0.0.1:2098/devtools/browser/f97e0dfe-f759-4874-bbb8-8e1a1a7cd9b0
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 461))
+JavaScript warning: https://www.amazon.in/HP-i3-1115G4-Micro-Edge-Anti-Glare-15s-fq2673TU/product-reviews/B0B4N6JVMW/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1679323484928	Marionette	INFO	Stopped listening on port 2106
+Dynamically enable window occlusion 1
+1679329936191	geckodriver	INFO	Listening on 127.0.0.1:1464
+1679329938312	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1465" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\TEMP\\rust_mozprofile8dbjFO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679329940055	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1679329940072	Marionette	INFO	Listening on port 1475
+Read port: 1475
+WebDriver BiDi listening on ws://127.0.0.1:1465
+1679329942364	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\TEMP\\rust_mozprofile8dbjFO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1465/devtools/browser/dd5c5db4-de31-4ad2-bc8e-17ae105e83ea
+JavaScript warning: https://www.amazon.in/HP-i3-1115G4-Micro-Edge-Anti-Glare-15s-fq2673TU/product-reviews/B0B4N6JVMW/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://images-eu.ssl-images-amazon.com/images/I/51-OW+PzsvL.js?AUIClients/VSEPlayer, line 22: TypeError: d is null
+JavaScript error: https://images-eu.ssl-images-amazon.com/images/I/51-OW+PzsvL.js?AUIClients/VSEPlayer, line 22: TypeError: d is null
+1679330016980	Marionette	INFO	Stopped listening on port 1475
+Dynamically enable window occlusion 1
+[Parent 8668, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
