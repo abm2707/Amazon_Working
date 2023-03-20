@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Amazon Product Review Extractor</h1>
+<form method="POST" action="{{ url_for('reviews') }}">
+    <div class="form-group">
+        <label for="url">Amazon Product URL</label>
+        <input type="text" class="form-control" id="url" name="url">
+    </div>
+    <button type="submit" class="btn btn-primary">Extract Reviews</button>
+</form>
+{% endblock %}

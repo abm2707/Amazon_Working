@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>Reviews</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Review Text</th>
+            <th>Sentiment Score</th>
+            <th>Sentiment Label</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for review, sentiment in reviews %}
+        <tr>
+            <td>{{ review }}</td>
+            <td>{{ sentiment.score }}</td>
+            <td>{% if sentiment.label == "positive" %} Positive {% elif sentiment.label == "negative" %} Negative {% else %} Neutral {% endif %}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}
